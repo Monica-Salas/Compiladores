@@ -1,0 +1,23 @@
+Ejercicio 1
+   S --> TS'
+   S'--> +TS' | ε 
+   T --> FT'
+   T' --> FT' | ε
+   F --> (S) | S* | a
+
+Ejercicio 2
+  S --> (L) | a
+  L --> SL'
+  L' --> ,SL' | ε
+
+Ejercicio 3
+  G --> PG'
+  G' --> G | ε
+  P --> id : R
+  R --> id R | ε
+  
+Ejercicio 4
+  S--> S'
+  S' --> E
+  E --> while E do E' | id := E'| id
+  E' --> E | ε
